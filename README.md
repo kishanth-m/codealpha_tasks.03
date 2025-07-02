@@ -26,10 +26,11 @@ A sleek, responsive, and interactive Music Player built with a focus on **modern
   Intuitive controls designed with the end user in mind.
 
 ## 🚀 Getting Started
+live demo: https://kishanth-m.github.io/codealpha_tasks.03/
 
 ## 📬 contact 
 author : KISHANTH M
 
-LinkedIn :
+LinkedIn : https://www.linkedin.com/in/kishanth-m-aa055b2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 E-mail : m.kishanth001@gmail.com
