@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="player-container">
+        <div class="player-body">
+            <div class="album-cover">
+                <img id="cover-image" src="images/default.jpg" alt="Album Cover">
+                <div class="hover-zoom-overlay"></div>
+            </div>
+
+            <div class="song-details">
+                <h2 id="song-title">Song Title</h2>
+                <h3 id="artist-name">Artist Name</h3>
+            </div>
+
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <div class="current-progress"></div>
+                </div>
+                <div class="time-details">
+                    <span id="current-time">0:00</span>
+                    <span id="total-duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="prev-btn"><i class="fas fa-backward"></i></button>
+                <button id="play-pause-btn"><i class="fas fa-play"></i></button>
+                <button id="next-btn"><i class="fas fa-forward"></i></button>
+            </div>
+
+            <div class="volume-control">
+                <i class="fas fa-volume-down"></i>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.7">
+                <i class="fas fa-volume-up"></i>
+            </div>
+
+            <div class="playlist-toggle">
+                <button id="playlist-btn"><i class="fas fa-list"></i> Playlist</button>
+            </div>
+        </div>
+
+        <div class="playlist-sidebar">
+            <h3 class="playlist-title">Playlist</h3>
+            <ul id="playlist-list">
+                </ul>
+        </div>
+    </div>
+
+    <audio id="main-audio" src=""></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
